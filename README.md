@@ -5,8 +5,10 @@
 **<p align="center">Desafio desenvolvido para melhorar e praticar os conceitos de JavaScript, Html, Css, NodeJs,Express entre outros</p>**
 
 ## Desafio 03
+
+### Visualizar:
 <h1>
-  <img src="https://ik.imagekit.io/xlj9cejf8v/desafio02_ssvUzC5wu.gif" alt="desafio02">
+  <img src="https://ik.imagekit.io/xlj9cejf8v/desafio03_FDwgqAAhRh.gif" alt="desafio03">
 </h1>
 
 
@@ -26,13 +28,13 @@ o projeto foi desenvolvido usando as seguintes tecnologias
 
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Css](https://www.w3schools.com/Css/)
-- [Nunjucks}(https://mozilla.github.io/nunjucks/)
+- [Nunjucks](https://mozilla.github.io/nunjucks/)
 - [NodeJs](https://nodejs.org/en/)
 - [Express](https://expressjs.com/pt-br/)
 
 ---
-## Como usar
-Para clonar e executar essa aplicação você vai precisar dos seguintes softwares instalados em seu computador:
+## Como utilizar
+Para executar essa aplicação você vai precisar dos seguintes softwares instalados em seu computador:
 - [NodeJs](https://nodejs.org/en/)
 - [Git](https://git-scm.com/)
 
@@ -43,7 +45,7 @@ Para clonar e executar essa aplicação você vai precisar dos seguintes softwar
 $ git clone https://github.com/Arthur-Barros/LaunchBase-Desafio03.git
 
 # Entrar no diretório
-$ cd LaunchBase-Desafio02/desafio03
+$ cd LaunchBase-Desafio03/desafio03
 
 # Instalar as dependências
 $ npm install
