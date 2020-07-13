@@ -6,14 +6,16 @@
 
 ## Desafio 03
 
-### Visualizar:
+### Visualição
 <h1>
   <img src="https://ik.imagekit.io/xlj9cejf8v/desafio03_FDwgqAAhRh.gif" alt="desafio03">
 </h1>
 
 
 # Indice
-[Sobre](#sobre) | [Tecnologias utilizadas](#tecnologias-utilizadas) | [Como baixar o projeto](#como-baixar-o-projeto)
+- [Sobre](#sobre) | [Tecnologias utilizadas](#tecnologias-utilizadas) | [Como utilizar](#como-utilizar) | [Como baixar o projeto](#como-baixar-o-projeto)
+
+---
 
 ## Sobre
 
