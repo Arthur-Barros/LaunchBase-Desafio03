@@ -35,10 +35,13 @@ o projeto foi desenvolvido usando as seguintes tecnologias
 - [Express](https://expressjs.com/pt-br/)
 
 ---
+
 ## Como utilizar
 Para executar essa aplicação você vai precisar dos seguintes softwares instalados em seu computador:
 - [NodeJs](https://nodejs.org/en/)
 - [Git](https://git-scm.com/)
+
+---
 
 ## Como rodar a aplicação
 
