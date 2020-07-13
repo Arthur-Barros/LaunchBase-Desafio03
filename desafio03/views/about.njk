@@ -1,0 +1,31 @@
+{% extends 'layout.njk' %}
+
+{% block head%}
+<title>Desafio3 - About</title>
+{% endblock %}
+
+{% block header %}
+<a href="/">Conteúdos</a>
+{% endblock %}
+
+{% block content%}
+<div class="descricao">
+    <img src="{{about.logo_url}}" alt="Logo {{about.name}}">
+    <h1>{{about.name}}</h1>
+    <p>
+        {{about.description}}
+    </p>
+    <h2>{{about.title}}</h2>
+    <ul>
+        <li>
+            {{about.name_js}}
+        </li>
+        <li>
+            {{about.name_nodejs}}
+        </li>
+        <li>
+            {{about.name_reactjs}}
+        </li>
+    </ul>
+</div>
+{% endblock %}

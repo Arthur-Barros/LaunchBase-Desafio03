@@ -1,0 +1,37 @@
+{% extends "layout.njk" %}
+
+{% block head%}
+    <title>Desafio3 - Sites</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+{% endblock %}
+
+{% block header%}
+    <a href="/">Conteúdos</a>
+    <a href="/about">Sobre</a>
+{% endblock%}
+
+
+{% block content%}
+    <section class="site">
+        <div class="card__content text">
+            <p>
+                <strong class="{{item.id}}">{{item.strong_title}}</strong>
+                {{item.title_card}}
+            </p>
+        </div>
+
+        <div class="card site-bottom" id="{{item.id}}">
+            <div class="card__site-container">
+                <iframe src="https://rocketseat.com.br/{{item.id}}" frameborder="0"></iframe>
+            </div>
+
+            <div class="card__info">
+                <p>{{item.duration}}</p>
+                <p class="card__price">{{item.price}}</p>
+            </div>
+        </div>
+
+    </section>
+
+{% endblock%}

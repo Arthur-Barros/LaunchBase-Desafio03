@@ -1,0 +1,42 @@
+{% extends 'layout.njk' %}
+
+{% block head%}
+<title>Desafio3 - Courses</title>
+{% endblock %}
+
+{% block header%}
+<a href="/about">Sobre</a>
+{% endblock%}
+
+
+{% block content %}
+    <section class="cards">
+
+        {% for item in items %}
+            <div class="card" id="{{item.id}}">
+                <div class="count">
+                    <p class="{{item.id_number}}">{{item.number}}</p>
+                </div>
+
+                <div class="card__image-container">
+                    <img src="https://skylab.rocketseat.com.br/static/{{item.id_imagem}}" alt="Imagem de {{item.id}}">
+                </div>
+
+                <div class="card__content">
+                    <p>
+                        <strong class="{{item.id}}">{{item.strong_title}}</strong>
+                        {{item.title_card}}</p>
+                </div>
+                <div class="card__info">
+                    <p>{{item.duration}}</p>
+                    <p class="card__price">{{item.price}}</p>
+                </div>
+            </div>
+        {% endfor %}
+    </section>
+
+
+    {% block script%}
+        <script src="/classe.js"></script>
+    {%endblock%}
+{% endblock %}

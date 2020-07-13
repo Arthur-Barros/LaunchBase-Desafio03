@@ -1,0 +1,277 @@
+@import 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap';
+
+
+:root{
+    --color-aleatoria: #d997ff;
+    --color-rocket:#7159c1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+body{
+    background-color: rgb(16, 15, 20);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+
+header{
+    padding: 30px;
+    background-image: linear-gradient(to right, rgb(179, 99, 253),  #472947);
+    border-bottom: white 4px solid;
+}
+
+header img{
+    position: absolute;
+    left: 30px;
+}
+
+.links {
+    text-align: right;
+    position: relative;
+}
+ 
+ .links a{
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0  16px;
+    text-decoration: none;
+
+}
+ 
+.links a:hover{
+    color: var(--color-aleatoria);
+    border-bottom: white 1px solid;
+    transition: color 200ms;
+}
+
+#links-folter{
+    text-align: center;
+}
+
+/** Sobre **/
+
+.descricao{
+    text-align: center;
+    padding: 22px;
+    
+}
+
+.descricao img{
+    border-radius: 50%;
+    border: 5px solid var(--color-rocket);
+    margin-bottom: 32px;
+    height: 300px;
+}
+
+
+.descricao h1{
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: bold;
+}
+
+.descricao p{
+    max-width: 500px;
+    margin: 32px auto;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+
+.descricao ul{
+    padding: 10px;
+    list-style: none;
+}
+
+
+.descricao ul li{
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid #4e3d4e;
+    width: 30%;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+/** Conteúdos **/
+
+.cards{
+    /**max-width: 1000px; **/
+    margin: 20vh 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 80px;
+}
+
+
+.card{
+    padding: 30px 0px;
+    background-color: rgb(24, 21, 21);
+    border-radius: 8px;
+    cursor: pointer;
+    display: grid;
+}
+
+.card__image-container img{
+    margin: 0 auto;
+    display: flex;
+}
+
+
+.card__content .launchbase{
+    color: orange;
+}
+
+.card#launchbase:hover{
+    border: 3px solid orange;
+    transition: all 400ms;
+}
+
+.launch-number{
+    border: 3px solid orange;
+    border-radius: 50%;
+    color: orange;
+    height: 40px;
+    width: 40px;
+    margin: 0 auto 60px;
+    font-size: 16px;
+    line-height: 26px;
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__content .starter{
+    color: var(--color-rocket);
+}
+
+.card#starter:hover{
+    border: 3px solid var(--color-rocket);
+    transition: all 400ms;
+}
+
+.start-number{
+    border: 3px solid var(--color-rocket);
+    border-radius: 50%;
+    color: var(--color-rocket);
+    height: 40px;
+    width: 40px;
+    margin: 0 auto 60px;
+    font-size: 16px;
+    line-height: 26px;
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__content .gostack{
+    color: #04D361;
+}
+
+.card#gostack:hover{
+    border: 3px solid #04D361;
+    transition: all 400ms;
+}
+
+.go-number{
+    border: 3px solid #04D361;
+    border-radius: 50%;
+    color: #04D361;
+    height: 40px;
+    width: 40px;
+    margin: 0 auto 60px;
+    font-size: 16px;
+    line-height: 26px;
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__content h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.card__content p{
+    margin: 40px auto;
+    line-height: 25px;
+    color: #818080;
+    padding: 20px;
+}
+
+
+.card__info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    align-items: center;
+}
+
+.card__price{
+    background-color: var(--color-rocket);
+    filter: brightness(90%);
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+/** Not-found **/
+
+.error{
+    text-align: center;
+    padding: 60px;
+    border: 1px solid red;
+    margin: 40vh auto;
+    max-width: 800px;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.error p{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+/** Site **/
+
+.site{
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+
+.site-bottom{ 
+    margin-bottom:60px;
+    padding: 0;
+    cursor: auto;
+}
+.text p{
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.card__site-container{
+    position: relative;
+    padding-top: 70%;
+}
+
+.card__site-container iframe{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #FFF;
+}
