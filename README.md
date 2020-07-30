@@ -12,7 +12,7 @@
 </h1>
 
 # :computer: Indice
-[Sobre](#sobre) | [Tecnologias utilizadas](#tecnologias-utilizadas) | [Como utilizar](#bookmark-como-utilizar) | [Como rodar a aplicação](#como-rodar-a-aplicação)
+[Sobre](#sobre) | [Tecnologias utilizadas](#tecnologias-utilizadas) | [Como utilizar](#electric_plug-como-utilizar) | [Como rodar a aplicação](#como-rodar-a-aplicação)
 
 ---
 
