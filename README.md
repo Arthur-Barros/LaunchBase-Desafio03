@@ -6,24 +6,24 @@
 
 ## Desafio 03
 
-### Visualização
+### :movie_camera: Visualização
 <h1>
   <img src="https://ik.imagekit.io/xlj9cejf8v/desafio03_FDwgqAAhRh.gif" alt="desafio03">
 </h1>
 
-# Indice
+# :computer: Indice
 - [Sobre](#sobre) | [Tecnologias utilizadas](#tecnologias-utilizadas) | [Como utilizar](#como-utilizar) | [Como rodar a aplicação](#como-rodar-a-aplicação)
 
 ---
 
-## Sobre
+## :bookmark: Sobre
 
 O projeto **Desafio03** foi desenvolvido no curso do **Bootcamp Launch Base**, com o objetivo de práticar todo conteúdo estudado dentro do curso, neste desafio
 aprendemos a usar o express para criação de rotas, deixamos o projeto mas dinâmico com o nunjucks.
 
 ---
 
-## Tecnologias utilizadas
+## :rocket: Tecnologias utilizadas
 
 o projeto foi desenvolvido usando as seguintes tecnologias
 
@@ -35,14 +35,14 @@ o projeto foi desenvolvido usando as seguintes tecnologias
 
 ---
 
-## Como utilizar
+## :electric_plug: Como utilizar
 Para executar essa aplicação você vai precisar dos seguintes softwares instalados em seu computador:
 - [NodeJs](https://nodejs.org/en/)
 - [Git](https://git-scm.com/)
 
 ---
 
-## Como rodar a aplicação
+## :file_folder: Como rodar a aplicação
 
 ```bash
 # Clonar repositório
@@ -59,4 +59,4 @@ $ npm run dev
 
 ```
 ---
-Desenvolvido por **Arthur Barros** [Entre em contato](https://www.linkedin.com/in/arthur-barros-/)
+Desenvolvido por :purple_heart: **Arthur Barros** :email: [Entre em contato](https://www.linkedin.com/in/arthur-barros-/)
