@@ -12,7 +12,7 @@
 </h1>
 
 # :computer: Indice
-- [Sobre](#sobre) | [Tecnologias utilizadas](#tecnologias-utilizadas) | [Como utilizar](#--como-utilizar) | [Como rodar a aplicação](#como-rodar-a-aplicação)
+- [Sobre](#sobre) | [Tecnologias utilizadas](#tecnologias-utilizadas) | [Como utilizar](#como-utilizar) | [Como rodar a aplicação](#como-rodar-a-aplicação)
 
 ---
 
@@ -35,7 +35,7 @@ o projeto foi desenvolvido usando as seguintes tecnologias
 
 ---
 
-## :electric_plug: Como utilizar
+## :electric_plug:Como utilizar
 Para executar essa aplicação você vai precisar dos seguintes softwares instalados em seu computador:
 - [NodeJs](https://nodejs.org/en/)
 - [Git](https://git-scm.com/)
