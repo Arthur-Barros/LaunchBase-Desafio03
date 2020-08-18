@@ -55,7 +55,7 @@ $ cd LaunchBase-Desafio03/desafio03
 $ npm install
 
 # Iniciar o Projeto
-$ npm run dev
+$ npm start
 
 ```
 ---
